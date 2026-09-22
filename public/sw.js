@@ -1,5 +1,5 @@
-const CACHE = "cove-v1"
-const SHELL = ["/", "/install", "/icon-192.png", "/icon-512.png"]
+const CACHE = "cove-v2"
+const SHELL = ["/", "/install", "/icon.svg"]
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
